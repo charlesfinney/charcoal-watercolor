@@ -3,6 +3,26 @@ Tim Roosevelt and Charles Finney build a site to promote thier artwork
 ## Step one 
 we created a directory structure seperating site design from content and media
 all files for the site go into folder and designated subfolders.  
+```bash
+├── app
+│   ├── css
+│   │   ├── **/*.css
+│   ├── favicon.ico
+│   ├── images
+│   ├── index.html
+│   ├── js
+│   │   ├── **/*.js
+│   └── partials/template
+├── dist (or build)
+├── node_modules
+├── bower_components (if using bower)
+├── test
+├── Gruntfile.js/gulpfile.js
+├── README.md
+├── package.json
+├── bower.json (if using bower)
+└── .gitignore
+```
 /assets/  
       /css/ - all casacading stylesheets  
       /img/ - all images for the site layout and links  
