@@ -1,37 +1,72 @@
 # charcoal-watercolor
 Tim Roosevelt and Charles Finney build a site to promote thier artwork 
 ## Step one 
-we created a directory structure seperating site design from content and media
-all files for the site go into folder and designated subfolders.  
+Created a directory structure seperating site design from content and media.
+1. in the /assets folder are all files, documentation and images used in layout and navigation througout the site, in subfolders according to their type.
+1. further in the /content folder are all media, files and images that make up the content of the site, also in subfolders according to type.
+  
 ```bash
-├── app
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── dist (or build)
-├── node_modules
-├── bower_components (if using bower)
-├── test
-├── Gruntfile.js/gulpfile.js
+
+.
+├── /assets
+│   ├── /css
+│   │   ├── main-stylesheet.css
+│   │   └── normalize.css
+│   │
+│   ├── /doc/ = (documentation)
+│   │   ├── css.md
+│   │   ├── extend.md
+│   │   ├── faq.md
+│   │   ├── html.md
+│   │   ├── js.md
+│   │   ├── misc.md
+│   │   ├── TOC.md
+│   │   └── usage.md
+│   │
+│   ├── /font
+|   │   └── *.ttf
+│   │
+│   ├── /img
+│   │   ├── *.png  
+│   │   ├── *.jpg
+│   │   ├── *.svg
+│   │   └── .gitignore
+|   │   └── /soc
+|   │       └── *.svg
+│   │
+|   └── /js
+|       ├── main.js
+|       ├── plugins.js
+|       └── /vendor/
+|           ├── jquery.min.js
+│           └── modernizr.min.js
+├── /content
+│   ├── /audio
+|   │   └── *.aac
+│   │
+|   └── /images
+|   │       ├── /finney
+|   │       │   └── *.png 
+|   │       └── /troosey
+|   │           └── *.png 
+│   ├── /pdf
+|   │   └── *.pdf
+│   │
+│   └── /video
+│       └── *.mp4
+│   
+├── .editorconfig
+├── .htaccess
+├── 404.html
+├── browserconfig.xml
+├── favicon.ico
+├── humans.txt
+├── icon.png
+├── index.html
 ├── README.md
-├── package.json
-├── bower.json (if using bower)
 └── .gitignore
+
 ```
-/assets/  
-      /css/ - all casacading stylesheets  
-      /img/ - all images for the site layout and links  
-      /js/ - all javascript files  
-/site-media/  
-      /site-images/  
-      /site-video/  
-      /site-audio/  
-      /site-pdf/  
         
         
 ## step two tools
