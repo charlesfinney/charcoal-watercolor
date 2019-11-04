@@ -18,7 +18,7 @@ Register a domain name
 ## Step two
 Setup a server at 
 1. Go to [digitalocean.com](https://www.digitalocean.com/)
-Created a directory structure seperating site design from content and media.
+Create a directory structure seperating site design from content and media.
 1. in the /assets folder are all files, documentation and images used in layout and navigation througout the site, in subfolders according to their type.
 1. further in the /content folder are all media, files and images that make up the content of the site, also in subfolders according to type.
   
